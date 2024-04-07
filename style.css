@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+
+:root{
+  --dark-green: #007F73;
+  --light-green: #4CCD99;
+  --yellow: #FFC700;
+  --light-yellow: #FFF455;
+  --bg-color: #1c1d1b;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: var(--bg-color);
+
+}
+
+.initial__page p:last-child{
+  margin-top: 2rem;
+
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 160px auto;
+  text-align: center;
+  padding-inline: 2rem;
+}
+
+.container h1{
+  font-size: 12rem;
+  color: #fafbd1;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.container p {
+  font-size: 3rem;
+  color: rgb(147, 147, 147);
+}
+
+.initial__categories{
+  display: grid;
+  width: 100%;
+  gap: 2rem;
+  justify-content: center;
+  grid-template-columns: 30rem 30rem;
+  margin-top: 4rem;
+}
+
+.initial__categories > button{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: start;
+  border: none;
+  padding: 2rem;
+  font-weight: 600;
+  background-color: var(--light-yellow);
+
+  transition: scale .4s ease-in-out;
+}
+
+.initial__categories > button:hover{
+  scale: 1.03;
+}
+
+.initial__categories > button > i{
+  font-size: 3rem;
+}
+
+.question__page h1{
+  font-size: 8rem;
+}
+
+.question-buttons__wrapper{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+
+  width: 100%;
+
+}
+
+.question-buttons__wrapper button{
+
+  width: 100%;
+
+  font-size: 3rem;
+  max-width: 80rem;
+  padding: 1.5rem;
+  text-align: start;
+
+  font-weight: 700;
+  cursor: pointer;
+  background-color: var(--light-yellow);
+  border: none;
+}
+
+#next{
+  border: none;
+  background-color: var(--light-yellow);
+  padding: 1rem 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4rem;
+}
+
+.hide{
+  display: none;
+}
+
+.result__page h1{
+  font-size: 4rem;
+}
+
+
+@media (max-width: 768px) {
+
+  .container{
+    margin-top: .4rem;
+  }
+
+  .container h1{
+    font-size: 8rem;
+  }
+
+  .question__page h1{
+    font-size: 6rem;
+  }
+
+  .container p{
+    font-size: 2.4rem;
+  }
+
+  .initial__categories{
+    grid-template-columns: 1fr;
+  }
+
+  #next{
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "category": "css",
+    "title": "What does CSS stands for?",
+    "options": {
+      "a": "Cascading Sheets Style",
+      "b": "Cascading Style Sheets",
+      "c": "Cascading Singular Styles",
+      "d": "Cascading Style Styled"
+    },
+    "correctOption": "b"
+  },
+  {
+    "id": 2,
+    "category": "html",
+    "title": "What is the <main> tag?",
+    "options": {
+      "a": "<main>",
+      "b": "<p>",
+      "c": "<div>",
+      "d": "<h2>"
+    },
+    "correctOption": "a"
+  },
+  {
+    "id": 3,
+    "category": "javascript",
+    "title": "How do you declare a function?",
+    "options": {
+      "a": "fun()",
+      "b": "fn(){}",
+      "c": "function(){}",
+      "d": "const function = ()=>"
+    },
+    "correctOption": "c"
+  },
+  {
+    "id": 4,
+    "category": "html",
+    "title": "What is the link tag?",
+    "options": {
+      "a": "<a>",
+      "b": "<strong>",
+      "c": "<link>",
+      "d": "<meta>"
+    },
+    "correctOption": "a"
+  },
+  {
+    "id": 5,
+    "category": "javascript",
+    "title": "How to declare a constant?",
+    "options": {
+      "a": "const",
+      "b": "cnst",
+      "c": "constant",
+      "d": "cnt"
+    },
+    "correctOption": "a"
+  },
+  {
+    "id": 6,
+    "category": "node",
+    "title": "How to install a package?",
+    "options": {
+      "a": "npm install",
+      "b": "npx i",
+      "c": "node install",
+      "d": "npm package install"
+    },
+    "correctOption": "a"
+  },
+  {
+    "id": 7,
+    "category": "css",
+    "title": "What property is used to change the background color of an element in CSS?",
+    "options": {
+      "a": "background-color",
+      "b": "color",
+      "c": "text-color",
+      "d": "bgcolor"
+    },
+    "correctOption": "a"
+  },
+  {
+    "id": 8,
+    "category": "html",
+    "title": "Which tag is used to create a hyperlink in HTML?",
+    "options": {
+      "a": "<a>",
+      "b": "<link>",
+      "c": "<hyperlink>",
+      "d": "<url>"
+    },
+    "correctOption": "a"
+  },
+  {
+    "id": 9,
+    "category": "javascript",
+    "title": "What is the result of '5' + 3 in JavaScript?",
+    "options": {
+      "a": "8",
+      "b": "53",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "correctOption": "b"
+  },
+  {
+    "id": 10,
+    "category": "html",
+    "title": "What does HTML stand for?",
+    "options": {
+      "a": "Hyperlinks and Text Markup Language",
+      "b": "Hyper Text Markup Language",
+      "c": "Home Tool Markup Language",
+      "d": "Hyperlinking Text Marking Language"
+    },
+    "correctOption": "b"
+  },
+  {
+    "id": 11,
+    "category": "javascript",
+    "title": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "options": {
+      "a": "To check the type of a variable",
+      "b": "To create a new variable",
+      "c": "To convert a variable to a different type",
+      "d": "To delete a variable"
+    },
+    "correctOption": "a"
+  },
+  {
+    "id": 12,
+    "category": "node",
+    "title": "What is Node.js?",
+    "options": {
+      "a": "A JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "b": "A relational database management system",
+      "c": "A front-end framework",
+      "d": "A programming language"
+    },
+    "correctOption": "a"
+  }
+]
